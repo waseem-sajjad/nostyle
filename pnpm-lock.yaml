@@ -80,7 +80,7 @@ importers:
   packages/slot:
     dependencies:
       '@nostyle/compose':
-        specifier: workspace:^
+        specifier: ^0.1.1
         version: link:../compose
       '@types/react':
         specifier: latest
