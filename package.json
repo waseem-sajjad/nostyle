@@ -4,7 +4,9 @@
   "scripts": {
     "build": "lerna run build --stream",
     "clean": "lerna run clean --stream",
-    "sb": "lerna run storybook --stream"
+    "sb": "lerna run storybook --stream",
+    "publish": "lerna publish --no-private",
+    "prepare": "lerna run build --stream"
   },
   "devDependencies": {
     "esbuild": "^0.19.11",

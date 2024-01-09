@@ -36,6 +36,7 @@
   "author": "Waseem Sajjad",
   "license": "MIT",
   "dependencies": {
-    "@nostyle/compose": "workspace:^"
-  }
+    "@nostyle/compose": "^0.1.0"
+  },
+  "gitHead": "338f1eebca443520844b3f40730c9641985b2a06"
 }
