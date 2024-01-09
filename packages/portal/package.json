@@ -1,0 +1,38 @@
+{
+  "name": "@nostyle/portal",
+  "version": "0.1.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "package.json"
+  ],
+  "scripts": {
+    "build": "node ../../scripts/build.mjs",
+    "clean": "rm -rf dist"
+  },
+  "sideEffects": false,
+  "peerDependencies": {
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "peerDependenciesMeta": {
+    "@types/react": {
+      "optional": true
+    },
+    "@types/react-dom": {
+      "optional": true
+    },
+    "react": {
+      "optional": true
+    },
+    "react-dom": {
+      "optional": true
+    }
+  },
+  "author": "Waseem Sajjad",
+  "license": "MIT"
+}

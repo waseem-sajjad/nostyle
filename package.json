@@ -1,0 +1,24 @@
+{
+  "name": "nostyle",
+  "private": false,
+  "scripts": {
+    "build": "lerna run build --stream",
+    "clean": "lerna run clean --stream",
+    "sb": "lerna run storybook --stream"
+  },
+  "devDependencies": {
+    "esbuild": "^0.19.11",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-airbnb-typescript": "^17.1.0",
+    "eslint-config-next": "14.0.4",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-prettier": "^5.1.2",
+    "eslint-plugin-storybook": "^0.6.15",
+    "eslint-plugin-unused-imports": "^3.0.0",
+    "lerna": "^8.0.2",
+    "prettier": "^3.1.1",
+    "typescript": "^5.3.3"
+  }
+}

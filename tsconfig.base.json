@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "strictNullChecks": true,
+    "esModuleInterop": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "noUnusedLocals": true,
+    "skipLibCheck": true,
+    "module": "ESNext",
+    "sourceMap": true,
+    "jsx": "react-jsx",
+    "moduleResolution": "Node",
+    "jsxImportSource": "react",
+    "isolatedModules": true
+  }
+}
