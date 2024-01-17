@@ -9,7 +9,7 @@ export const composeProps = (slotProps: AnyProps, childProps: AnyProps) => {
     const slotPropValue = slotProps[propName];
     const childPropValue = childProps[propName];
 
-    const isHandler = /^on[A-Z]/.test(propName);
+    const isHandler = /^on[a-z]/i.test(propName);
     if (isHandler) {
       if (slotPropValue && childPropValue) {
         overrideProps[propName] = (...args: unknown[]) => {
