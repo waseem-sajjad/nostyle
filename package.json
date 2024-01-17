@@ -1,6 +1,7 @@
 {
   "name": "nostyle",
   "private": false,
+  "version": "0.1.0",
   "scripts": {
     "build": "lerna run build --stream",
     "clean": "lerna run clean --stream",
